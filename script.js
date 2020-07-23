@@ -19,15 +19,23 @@ var q1a1 = document.getElementById("q1a1");
 //#TODO: Add Event Listeners to your answer choice variables.
 q1a1.addEventListener("click", result1);
 
-
-
-
-
-
-
 //#TODO: Define quiz functions here
 function result1(){
-  
-  
-  
+result1Score = result1Score + 1;  
+questionCount =  questionCount + 1; 
+}
+
+function result2(){
+ result2Score = result2Score + 1;
+ questionCount =  questionCount + 1; 
+}
+
+function result3(){
+ result3Score = result3Score + 1;
+ questionCount =  questionCount + 1; 
+}
+
+function result4(){
+ result4Score = result4Score + 1;
+ questionCount =  questionCount + 1; 
 }
