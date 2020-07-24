@@ -10,6 +10,9 @@ var result4Score = 0;
 
 //#TODO: Use the DOM to create variables for the first quiz question.
 var q1a1 = document.getElementById("q1a1");
+var q1a2 = document.getElementById("q1a2");
+var q1a3 = document.getElementById("q1a3");
+var q1a4 = document.getElementById("q1a4");
 
 
 
@@ -21,21 +24,21 @@ q1a1.addEventListener("click", result1);
 
 //#TODO: Define quiz functions here
 function result1(){
-result1Score = result1Score + 1;  
-questionCount =  questionCount + 1; 
+result1Score = "result1Score + 1";  
+questionCount = "questionCount + 1"; 
 }
 
 function result2(){
- result2Score = result2Score + 1;
- questionCount =  questionCount + 1; 
+ result2Score = "result2Score + 1";
+ questionCount = "questionCount + 1"; 
 }
 
 function result3(){
- result3Score = result3Score + 1;
- questionCount =  questionCount + 1; 
+ result3Score = "result3Score + 1";
+ questionCount =  "questionCount + 1"; 
 }
 
 function result4(){
- result4Score = result4Score + 1;
- questionCount =  questionCount + 1; 
+ result4Score = "result4Score + 1";
+ questionCount =  "questionCount + 1"; 
 }
