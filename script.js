@@ -27,27 +27,27 @@ var q3a4 = document.getElementById("q3a4");
 var result = document.getElementById("result");
 
 //#TODO: Add Event Listeners to your answer choice variables.
-q1a1.addEventListener("click", outgoingScore);
-q1a2.addEventListener("click", originalScore);
-q1a3.addEventListener("click", funScore);
-q1a4.addEventListener("click", creativeScore);
+q1a1.addEventListener("click", outgoing);
+q1a2.addEventListener("click", original);
+q1a3.addEventListener("click", fun);
+q1a4.addEventListener("click", creative);
 
-q2a1.addEventListener("click", creativeScore);
-q2a2.addEventListener("click", funScore);
-q2a3.addEventListener("click", originalScore);
-q3a4.addEventListener("click", outgoingScore);
+q2a1.addEventListener("click", creative);
+q2a2.addEventListener("click", fun);
+q2a3.addEventListener("click", original);
+q2a4.addEventListener("click", outgoing);
 
-q3a1.addEventListener("click", funScore);
-q3a2.addEventListener("click", outgoingScore);
-q3a3.addEventListener("click", creativeScore);
-q3a4.addEventListener("click", originalScore);
+q3a1.addEventListener("click", fun);
+q3a2.addEventListener("click", outgoing);
+q3a3.addEventListener("click", creative);
+q3a4.addEventListener("click", original);
                       
 
 //#TODO: Define quiz functions here
 function fun(){
   funScore += 1;
   questionCount += 1;
-  alert("One Point to Fun!");
+  //alert("One Point to Fun!");
   if (questionCount >= 3) {
   updateResult();
   }
@@ -55,7 +55,7 @@ function fun(){
 function creative(){
  creativeScore += 1;
  questionCount += 1;; 
- alert("One Point to Creative!");
+ //alert("One Point to Creative!");
  if (questionCount >= 3) {
   updateResult();
   } 
@@ -64,7 +64,7 @@ function creative(){
 function outgoing(){
  outgoingScore += 1;
  questionCount += 1; 
-  alert("One Point to Outgoing!");
+  //alert("One Point to Outgoing!");
   if (questionCount >= 3) {
    updateResult();
   }
@@ -73,7 +73,7 @@ function outgoing(){
 function original(){
  originalScore += 1;
  questionCount += 1;; 
- alert("One Point to Original!");
+ //alert("One Point to Original!");
  if (questionCount >= 3) {
   updateResult();
   }
@@ -99,26 +99,3 @@ function updateResult(){
  }
 }
 
-/*function fun(){
-funScore = "funScore + 1";  
-questionCount = "questionCount + 1"; 
-alert("One Point to Fun!");
-}
-
-function creative(){
- creativeScore = "creativeScore + 1";
- questionCount = "questionCount + 1"; 
- alert("One Point to Creative!");
-}
-
-function outgoing(){
- outgoingScore = "outgoingScore + 1";
- questionCount =  "questionCount + 1"; 
-  alert("One Point to Outgoing!");
-}
-
-function original(){
- originalScore = "originalScore + 1";
- questionCount =  "questionCount + 1"; 
- alert("One Point to Original!");
-}*/
