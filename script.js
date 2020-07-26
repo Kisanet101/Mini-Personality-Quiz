@@ -20,25 +20,25 @@ var q1a4 = document.getElementById("q1a4");
 
 
 //#TODO: Add Event Listeners to your answer choice variables.
-q1a1.addEventListener("click", result1);
+q1a1.addEventListener("click", fun1);
 
 //#TODO: Define quiz functions here
-function result1(){
-result1Score = "result1Score + 1";  
+function fun1(){
+fun1Score = "fun1Score + 1";  
 questionCount = "questionCount + 1"; 
 }
 
-function result2(){
- result2Score = "result2Score + 1";
+function creative2(){
+ creative2Score = "creative2Score + 1";
  questionCount = "questionCount + 1"; 
 }
 
-function result3(){
- result3Score = "result3Score + 1";
+function outgoing3(){
+ outgoing3Score = "outgoing3Score + 1";
  questionCount =  "questionCount + 1"; 
 }
 
-function result4(){
- result4Score = "result4Score + 1";
+function original4(){
+ original4Score = "original4Score + 1";
  questionCount =  "questionCount + 1"; 
 }
