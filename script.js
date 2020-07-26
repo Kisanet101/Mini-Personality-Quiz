@@ -30,19 +30,52 @@ q1a4.addEventListener("click", creativeScore);
 function fun(){
 funScore = "funScore + 1";  
 questionCount = "questionCount + 1"; 
+alert("One Point to Fun!");
 }
 
 function creative(){
  creativeScore = "creativeScore + 1";
  questionCount = "questionCount + 1"; 
+ alert("One Point to Creative!");
 }
 
 function outgoing(){
  outgoingScore = "outgoingScore + 1";
  questionCount =  "questionCount + 1"; 
+  alert("One Point to Outgoing!");
 }
 
 function original(){
  originalScore = "originalScore + 1";
  questionCount =  "questionCount + 1"; 
+ alert("One Point to Original!");
 }
+
+function slytherin() {
+  slytherinScore += 1;
+  questionCount += 1;
+}
+
+/*function fun(){
+funScore = "funScore + 1";  
+questionCount = "questionCount + 1"; 
+alert("One Point to Fun!");
+}
+
+function creative(){
+ creativeScore = "creativeScore + 1";
+ questionCount = "questionCount + 1"; 
+ alert("One Point to Creative!");
+}
+
+function outgoing(){
+ outgoingScore = "outgoingScore + 1";
+ questionCount =  "questionCount + 1"; 
+  alert("One Point to Outgoing!");
+}
+
+function original(){
+ originalScore = "originalScore + 1";
+ questionCount =  "questionCount + 1"; 
+ alert("One Point to Original!");
+}*/
