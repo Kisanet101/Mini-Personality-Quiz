@@ -87,13 +87,14 @@ function updateResult(){
     result.innerHTML = "People most appreciate your fun persoanlity!";
   }
   else if (originalScore >=2) {
-    
+    result.innerHTML = "People most appreciate that your one of a kind, your unique!";
   }
 
   else if (outgoingScore >=2) {
-    
+    result.innerHTML = "People most appeciate your outgoing nature!";
   }
  else {
+  result.innerHTML = "Hmm.. We're not quite sure. Try again later.";
    
  }
 }
