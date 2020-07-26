@@ -6,6 +6,7 @@ var funScore = 0;
 var creativeScore = 0;
 var outgoingScore = 0;
 var originalScore = 0;
+var result = 0;
 
 //#TODO: Use the DOM to create variables for the first quiz question.
 var q1a1 = document.getElementById("q1a1");
@@ -22,6 +23,8 @@ var q3a1 = document.getElementById("q3a1");
 var q3a2 = document.getElementById("q3a2");
 var q3a3 = document.getElementById("q3a3");
 var q3a4 = document.getElementById("q3a4");
+
+var result = document.getElementById("result");
 
 //#TODO: Add Event Listeners to your answer choice variables.
 q1a1.addEventListener("click", outgoingScore);
@@ -63,7 +66,7 @@ function outgoing(){
  questionCount += 1; 
   alert("One Point to Outgoing!");
   if (questionCount >= 3) {
-  updateResult();
+   updateResult();
   }
 }
 
@@ -74,6 +77,25 @@ function original(){
  if (questionCount >= 3) {
   updateResult();
   }
+}
+
+function updateResult(){
+   if (creativeScore >= 2){
+     result.innerHTML = "People most appreciate your creative mind!";
+   }
+  else if (funScore >=2) {
+    result.innerHTML = "People most appreciate your fun persoanlity!";
+  }
+  else if (originalScore >=2) {
+    
+  }
+
+  else if (outgoingScore >=2) {
+    
+  }
+ else {
+   
+ }
 }
 
 /*function fun(){
