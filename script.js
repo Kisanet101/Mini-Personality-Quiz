@@ -4,8 +4,8 @@
 var questionCount = 0;
 var fun1Score = 0;
 var creative2Score = 0;
-var result3Score = 0;
-var result4Score = 0;
+var outgoing3Score = 0;
+var original4Score = 0;
 
 
 //#TODO: Use the DOM to create variables for the first quiz question.
