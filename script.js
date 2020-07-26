@@ -34,32 +34,46 @@ q2a2.addEventListener("click", funScore);
 q2a3.addEventListener("click", originalScore);
 q3a4.addEventListener("click", outgoingScore);
 
-q3a1.addEventListener("click", fun
-
-
+q3a1.addEventListener("click", funScore);
+q3a2.addEventListener("click", outgoingScore);
+q3a3.addEventListener("click", creativeScore);
+q3a4.addEventListener("click", originalScore);
+                      
 
 //#TODO: Define quiz functions here
 function fun(){
   funScore += 1;
   questionCount += 1;
   alert("One Point to Fun!");
+  if (questionCount >= 3) {
+  updateResult();
+  }
 }
 function creative(){
  creativeScore += 1;
  questionCount += 1;; 
  alert("One Point to Creative!");
+ if (questionCount >= 3) {
+  updateResult();
+  } 
 }
 
 function outgoing(){
  outgoingScore += 1;
  questionCount += 1; 
   alert("One Point to Outgoing!");
+  if (questionCount >= 3) {
+  updateResult();
+  }
 }
 
 function original(){
  originalScore += 1;
  questionCount += 1;; 
  alert("One Point to Original!");
+ if (questionCount >= 3) {
+  updateResult();
+  }
 }
 
 /*function fun(){
