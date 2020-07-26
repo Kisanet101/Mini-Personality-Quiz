@@ -21,6 +21,10 @@ var q1a4 = document.getElementById("q1a4");
 
 //#TODO: Add Event Listeners to your answer choice variables.
 q1a1.addEventListener("click", fun1);
+q1a2.addEventListener("click", fun1);
+q1a3.addEventListener("click", fun1);
+q1a4.addEventListener("click", fun1);
+
 
 //#TODO: Define quiz functions here
 function fun1(){
