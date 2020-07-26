@@ -14,6 +14,10 @@ var q1a2 = document.getElementById("q1a2");
 var q1a3 = document.getElementById("q1a3");
 var q1a4 = document.getElementById("q1a4");
 
+var q2a1 = document
+
+
+
 
 
 
@@ -50,7 +54,6 @@ function original(){
  questionCount += 1;; 
  alert("One Point to Original!");
 }
-
 
 /*function fun(){
 funScore = "funScore + 1";  
