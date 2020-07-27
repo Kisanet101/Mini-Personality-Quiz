@@ -4,26 +4,33 @@ body {
   font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
   margin: 2em;
   background-color: #cc90e8;
-
 }
 
+
+
+
 h1 {
+  display: flex;
+  justify-content: center;
   font-style: italic;
   color: #a800fc;
-  font-size: 28px;
+  font-size: 45px;
 }
 
 h2 {
   margin-top: 2em; 
   display: flex;
   justify-content: center;
+  color: #a800fc;
 }
 
 .question {
   display: flex;
+  justify-content: space-around;
   margin-top: 2em;
 }
   
 .answer-choice img {
   height: 10em;
+  width: 11em;
 }
