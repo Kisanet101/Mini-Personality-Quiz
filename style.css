@@ -32,23 +32,26 @@ h2 {
   width: 11em;
   border-radius: 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 #q1a1 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 #q1a2 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 #q1a3 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 #q1a4{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
+button {
+  border-radius: 12px;}
+  
