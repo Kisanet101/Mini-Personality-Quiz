@@ -32,12 +32,11 @@ h2 {
   width: 10em;
   border-radius: 50px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-around
+}
   
 
   button {
   border-radius: 12px;
-  display: flex;
-  justify-content: space-around;
-  }
+}
   
