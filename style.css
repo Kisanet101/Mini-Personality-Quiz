@@ -29,30 +29,15 @@ h2 {
   
 .answer-choice img {
   height: 10em;
-  width: 11em;
+  width: 10em;
   border-radius: 50px;
   display: flex;
   justify-content: space-around;
-  border: white; 
-}
-#q1a1 {
-  display: flex;
-  justify-content: space-around;
-}
+  
 
-#q1a2 {
+  button {
+  border-radius: 12px;
   display: flex;
   justify-content: space-around;
-}
-
-#q1a3 {
-  display: flex;
-  justify-content: space-around;
-}
-#q1a4{
-  display: flex;
-  justify-content: space-around;
-}
-button {
-  border-radius: 12px;}
+  }
   

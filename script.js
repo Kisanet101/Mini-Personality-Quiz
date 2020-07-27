@@ -51,6 +51,16 @@ q3a1.addEventListener("click", fun);
 q3a2.addEventListener("click", outgoing);
 q3a3.addEventListener("click", creative);
 q3a4.addEventListener("click", original);
+
+q4a1.addEventListener("click", outgoing);
+q4a2.addEventListener("click", creative);
+q4a3.addEventListener("click", original);
+q4a4.addEventListener("click", fun);
+
+q5a1.addEventListener("click", outgoing);
+q5a2.addEventListener("click", creative);
+q5a3.addEventListener("click", fun);
+q5a4.addEventListener("click", original);
                       
 
 //#TODO: Define quiz functions here
@@ -58,7 +68,7 @@ function fun(){
   funScore += 1;
   questionCount += 1;
   //alert("One Point to Fun!");
-  if (questionCount >= 3) {
+  if (questionCount >= 5) {
   updateResult();
   }
 }
@@ -66,7 +76,7 @@ function creative(){
  creativeScore += 1;
  questionCount += 1;; 
  //alert("One Point to Creative!");
- if (questionCount >= 3) {
+ if (questionCount >= 5) {
   updateResult();
   } 
 }
@@ -75,7 +85,7 @@ function outgoing(){
  outgoingScore += 1;
  questionCount += 1; 
   //alert("One Point to Outgoing!");
-  if (questionCount >= 3) {
+  if (questionCount >= 5) {
    updateResult();
   }
 }
@@ -84,23 +94,23 @@ function original(){
  originalScore += 1;
  questionCount += 1;; 
  //alert("One Point to Original!");
- if (questionCount >= 3) {
+ if (questionCount >= 5) {
   updateResult();
   }
 }
 
 function updateResult(){
-   if (creativeScore >= 2){
+   if (creativeScore >= 3){
      result.innerHTML = "People most appreciate your creative mind! You think out of the box and find new, innovative solutions to problems";
    }
-  else if (funScore >=2) {
+  else if (funScore >= 3) {
     result.innerHTML = "People most appreciate your fun personality! You love to try new things, explor, and travel";
   }
-  else if (originalScore >=2) {
+  else if (originalScore >= 3) {
     result.innerHTML = "People most appreciate that your one of a kind, your unique! You have a unique sense of style, and people  love that about you";
   }
 
-  else if (outgoingScore >=2) {
+  else if (outgoingScore >= 3) {
     result.innerHTML = "People most appeciate your outgoing nature! You love to spend time with your friends and focus on living in the moment";
   }
  else {
