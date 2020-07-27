@@ -91,7 +91,7 @@ function updateResult(){
   }
 
   else if (outgoingScore >=2) {
-    result.innerHTML = "People most appeciate your outgoing nature! You love to spend time with your fr";
+    result.innerHTML = "People most appeciate your outgoing nature! You love to spend time with your friends and focus on living in the moment";
   }
  else {
   result.innerHTML = "Hmm.. We're not quite sure. Try again later.";

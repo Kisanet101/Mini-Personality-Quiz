@@ -33,6 +33,7 @@ h2 {
   border-radius: 50px;
   display: flex;
   justify-content: space-around;
+  border: white; 
 }
 #q1a1 {
   display: flex;
