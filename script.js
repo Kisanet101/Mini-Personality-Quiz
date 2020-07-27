@@ -81,17 +81,17 @@ function original(){
 
 function updateResult(){
    if (creativeScore >= 2){
-     result.innerHTML = "People most appreciate your creative mind!";
+     result.innerHTML = "People most appreciate your creative mind! You think out of the box and find new, innovative solutions to problems";
    }
   else if (funScore >=2) {
-    result.innerHTML = "People most appreciate your fun persoanlity!";
+    result.innerHTML = "People most appreciate your fun personality! You love to try new things, explor, and travel";
   }
   else if (originalScore >=2) {
-    result.innerHTML = "People most appreciate that your one of a kind, your unique!";
+    result.innerHTML = "People most appreciate that your one of a kind, your unique! You have a unique sense of style, and people  love that about you";
   }
 
   else if (outgoingScore >=2) {
-    result.innerHTML = "People most appeciate your outgoing nature!";
+    result.innerHTML = "People most appeciate your outgoing nature! You love to spend time with your fr";
   }
  else {
   result.innerHTML = "Hmm.. We're not quite sure. Try again later.";
