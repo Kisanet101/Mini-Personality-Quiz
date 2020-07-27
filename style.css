@@ -6,9 +6,6 @@ body {
   background-color: #cc90e8;
 }
 
-
-
-
 h1 {
   display: flex;
   justify-content: center;
@@ -33,4 +30,25 @@ h2 {
 .answer-choice img {
   height: 10em;
   width: 11em;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+#q1a1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#q1a2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#q1a3 {
+  display: flex;
+  justify-content: space-between;
+}
+#q1a4{
+  display: flex;
+  justify-content: space-between;
 }
