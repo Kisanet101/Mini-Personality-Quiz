@@ -12,6 +12,7 @@ h1 {
   font-style: italic;
   color: #a800fc;
   font-size: 45px;
+  background-color: #EFF1F4
 }
 
 h2 {
@@ -19,6 +20,7 @@ h2 {
   display: flex;
   justify-content: center;
   color: #a800fc;
+  font-size: 2em;
 }
 
 .question {
@@ -28,11 +30,12 @@ h2 {
 }
   
 .answer-choice img {
-  height: 10em;
-  width: 10em;
+  height: 15em;
+  width: 15em;
   border-radius: 50px;
   display: flex;
   justify-content: space-around;
+  border: 5px solid #a800fc;
 }
   
   button {
@@ -41,6 +44,6 @@ h2 {
   color: black;  
   font-size: 24px;
   padding: 14px 40px;
-  border: 2px solid #a800fc;
+  border: 5px solid #a800fc;
 }
   
