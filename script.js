@@ -73,24 +73,24 @@ function fun(){
   //alert("One Point to Fun!");
   if (questionCount >= 5) {
   updateResult();
-  }
+}
 }
 function creative(){
  creativeScore += 1;
  questionCount += 1;; 
  //alert("One Point to Creative!");
  if (questionCount >= 5) {
-  updateResult();
-  } 
+ updateResult();
+} 
 }
 
 function outgoing(){
  outgoingScore += 1;
  questionCount += 1; 
-  //alert("One Point to Outgoing!");
-  if (questionCount >= 5) {
-   updateResult();
-  }
+ //alert("One Point to Outgoing!");
+ if (questionCount >= 5) {
+ updateResult();
+}
 }
 
 function original(){
@@ -98,28 +98,26 @@ function original(){
  questionCount += 1;; 
  //alert("One Point to Original!");
  if (questionCount >= 5) {
-  updateResult();
-  }
+ updateResult();
+}
 }
 
 function updateResult(){
    if (creativeScore >= 3){
      result.innerHTML = "People most appreciate your creative mind! You think out of the box and find new, innovative solutions to problems.";
-   }
+}
   else if (funScore >= 3) {
     result.innerHTML = "People most appreciate your fun personality! You love to try new things, explore new things, and travel.";
-  }
+}
   else if (originalScore >= 3) {
     result.innerHTML = "People most appreciate that your one of a kind, your unique! You have a unique sense of style, and people  love that about you.";
-  }
-
+}
   else if (outgoingScore >= 3) {
     result.innerHTML = "People most appeciate your outgoing nature! You love to spend time with your friends and focus on living in the moment.";
-  }
+}
  else {
-  result.innerHTML = "Hmm.. We're not quite sure. Try again later.";
-   
- }
+  result.innerHTML = "Hmm.. We're not quite sure. Try again later."; 
+}
 }
 
 //Reset your variables tracking the scores for each of your quiz options.
