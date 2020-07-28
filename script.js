@@ -127,7 +127,8 @@ function updateResult(){
 
 function restart(){
 result.innerHTML  = "Your result is..."
-
+if (questionCount >= 5) {
+  updateResult();)
   
 }
 
