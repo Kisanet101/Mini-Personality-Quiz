@@ -131,8 +131,6 @@ questionCount = 0;
 funScore = 0;
 creativeScore = 0;
 outgoingScore = 0;
-originalScore = 0;
-result = 0;
- updateResult();
+originalScore = 0;  
 }
 
