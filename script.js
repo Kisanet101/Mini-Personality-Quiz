@@ -7,7 +7,7 @@ var creativeScore = 0;
 var outgoingScore = 0;
 var originalScore = 0;
 var result = 0;
-var restart = 0;
+
 
 //#TODO: Use the DOM to create variables for the first quiz question.
 var q1a1 = document.getElementById("q1a1");
@@ -64,7 +64,7 @@ q5a2.addEventListener("click", creative);
 q5a3.addEventListener("click", fun);
 q5a4.addEventListener("click", original);
                       
-restart.addEventListener("click", restart);
+restart.addEventListener("click", restartButton);
 
 //#TODO: Define quiz functions here
 function fun(){
@@ -125,12 +125,13 @@ function updateResult(){
 //Reset your variables tracking the scores for each of your quiz options.
 //Reset your variable tracking which question the user is on.
 
-function restart(){
-result.innerHTML  = "Your result is..."
-function fun();
-function creative();
-function outgoing();
-function original();
-function updateResult()
+function restartButton(){
+.innerHTML = "Your results are ...";  
+questionCount = 0;
+funScore = 0;
+creativeScore = 0;
+outgoingScore = 0;
+originalScore = 0;
+result = 0;
 }
 
