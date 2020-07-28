@@ -122,3 +122,12 @@ function updateResult(){
  }
 }
 
+//Reset your variables tracking the scores for each of your quiz options.
+//Reset your variable tracking which question the user is on.
+
+function restart(){
+result.innerHTML  = "Your result is..."
+
+  
+}
+
