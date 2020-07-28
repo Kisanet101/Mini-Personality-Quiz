@@ -32,11 +32,15 @@ h2 {
   width: 10em;
   border-radius: 50px;
   display: flex;
-  justify-content: space-around
+  justify-content: space-around;
 }
   
-
   button {
   border-radius: 12px;
+  background-color: #e7e7e7; 
+  color: black;  
+  font-size: 24px;
+  padding: 14px 40px;
+  border: 2px solid #a800fc;
 }
   
