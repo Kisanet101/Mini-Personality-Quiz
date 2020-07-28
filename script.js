@@ -64,7 +64,7 @@ q5a2.addEventListener("click", creative);
 q5a3.addEventListener("click", fun);
 q5a4.addEventListener("click", original);
                       
-restart.addEventListener("click", restart)
+restart.addEventListener("click", restart);
 
 //#TODO: Define quiz functions here
 function fun(){
@@ -127,8 +127,10 @@ function updateResult(){
 
 function restart(){
 result.innerHTML  = "Your result is..."
-if (questionCount >= 5) {
-  updateResult();)
-  
+function fun();
+function creative();
+function outgoing();
+function original();
+function updateResult()
 }
 
