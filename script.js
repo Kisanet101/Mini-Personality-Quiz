@@ -104,17 +104,17 @@ function original(){
 
 function updateResult(){
    if (creativeScore >= 3){
-     result.innerHTML = "People most appreciate your creative mind! You think out of the box and find new, innovative solutions to problems";
+     result.innerHTML = "People most appreciate your creative mind! You think out of the box and find new, innovative solutions to problems.";
    }
   else if (funScore >= 3) {
-    result.innerHTML = "People most appreciate your fun personality! You love to try new things, explor, and travel";
+    result.innerHTML = "People most appreciate your fun personality! You love to try new things, explore new things, and travel.";
   }
   else if (originalScore >= 3) {
-    result.innerHTML = "People most appreciate that your one of a kind, your unique! You have a unique sense of style, and people  love that about you";
+    result.innerHTML = "People most appreciate that your one of a kind, your unique! You have a unique sense of style, and people  love that about you.";
   }
 
   else if (outgoingScore >= 3) {
-    result.innerHTML = "People most appeciate your outgoing nature! You love to spend time with your friends and focus on living in the moment";
+    result.innerHTML = "People most appeciate your outgoing nature! You love to spend time with your friends and focus on living in the moment.";
   }
  else {
   result.innerHTML = "Hmm.. We're not quite sure. Try again later.";
@@ -126,12 +126,13 @@ function updateResult(){
 //Reset your variable tracking which question the user is on.
 
 function restartButton(){
-.innerHTML = "Your results are ...";  
+result.innerHTML = "Your results are ...";  
 questionCount = 0;
 funScore = 0;
 creativeScore = 0;
 outgoingScore = 0;
 originalScore = 0;
 result = 0;
+ updateResult();
 }
 
